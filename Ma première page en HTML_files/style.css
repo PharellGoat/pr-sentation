@@ -1,0 +1,55 @@
+body {background: url('hyeroglyphes.jpg') ;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+ h1 {color: rgb(15, 247, 131);}
+
+p {color: rgb(0, 255, 179);}
+p.p1 {background-color: red;
+color:antiquewhite;
+width: 10%;}
+
+.souligner{text-decoration: underline}
+
+    
+
+iframe {background-color: pink; display: block;}
+h2 {color: rgb(0, 255, 221);}
+.jaune {background-color: yellow;}
+.fcb_link {color:bisque;}
+h3 {color:rgb(64, 7, 129)}
+
+
+ 
+form div {margin-bottom: 10px;}
+label{width: 400px;
+display: inline-block;}
+
+.colum {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+  }
+.colum img {
+    max-width: 100%;
+    height: auto;
+ }
+.image-arrondi {
+    border-radius: 15px;
+   }
+.image-arrondi-circulaire {
+border-radius: 50% 50% 50% 50%;
+}
+
+.colum-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: lightpink;
+}
+.image-flottante1 {
+    float: left;
+    margin-right: 10px
+}
+ 
